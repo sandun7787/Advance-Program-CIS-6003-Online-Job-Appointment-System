@@ -23,23 +23,23 @@
     <div class="carousel-item active">
       <img src="img/home 12.jpg" class="d-block w-100" height="800px">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>House Keeping</h5>
+        <p>A housekeeping job appointment consultation is a meeting or discussion between a homeowner or employer and a potential housekeeper or cleaning service provider.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="img/job4.jpg" class="d-block w-100"  height="800px">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>Farmer</h5>
+        <p>A farming job appointment consultation is a meeting or discussion between a farmer or agricultural employer and a job applicant or potential employee.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="img/job5.jpg" class="d-block w-100"  height="800px">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>Engineering</h5>
+        <p>An engineering job appointment consultation is a meeting or discussion between an engineering employer or project manager and a potential engineering candidate or consultant. During this consultation, both parties typically discuss the specific engineering job position, project requirements, technical skills needed, qualifications, work expectations, timelines, and any other relevant details</p>
       </div>
-
+ 
 </body>
 </html>

@@ -1,9 +1,15 @@
 package com.codewithluck.service;
 
 public class MathUtils {
-
-	public MathUtils() {
-		// TODO Auto-generated constructor stub
+	
+	public int add(int x, int y) {
+		return x + y;
 	}
+	
+	public double divide(int x, int y) {
+		return x / y;
+	}
+
+
 
 }
