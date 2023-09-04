@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Online Job Appoinment System</title>
+<title>Search and update Consulter</title>
 <%@include file="../component/allcss.jsp"%>
 
 <!-- Latest compiled and minified CSS -->
