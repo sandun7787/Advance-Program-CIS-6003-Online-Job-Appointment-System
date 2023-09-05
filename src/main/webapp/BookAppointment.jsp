@@ -40,47 +40,47 @@ h1{
 
    <div class="form-group">
     <label for="id">CONSULTER ID</label>
-    <input type="text" class="form-control" class="id" name="id" readonly="readonly" value="${Message1}" required>
+    <input type="text"   class="form-control" class="id" name="id" readonly="readonly" value="${Message1}" required/>
     </div>
     <br/>
   <div class="form-group">
     <label for="consultantfirstname">CONSULTER FIRST NAME</label>
-    <input type="text" class="form-control" id="consultantfirstname" class="consultantfirstname" name="consultantfirstname" readonly="readonly" value="${Message3}" required>
+    <input type="text"  required class="form-control" id="consultantfirstname" class="consultantfirstname" name="consultantfirstname" readonly="readonly" value="${Message3}" required/>
     </div>
   <br/>
     <div class="form-group">
     <label for="consultantlastname">CONSULTER LASTNAME</label>
-    <input type="text" class="form-control" class="consultantlastname"  id="consultantlastname" name="consultantlastname"readonly="readonly" value="${Message4}" required>
+    <input type="text" class="form-control"   required class="consultantlastname"  id="consultantlastname" name="consultantlastname"readonly="readonly" value="${Message4}" required/>
      </div>
   <br/>
     <div class="form-group">
     <label for="consultantemail">CONSULTER EMAIL</label>
-    <input type="email" class="form-control" class="consultantemail" id="consultantemail" name="consultantemail"readonly="readonly" value="${Message2}" required>
+    <input type="email" class="form-control"  required class="consultantemail" id="consultantemail" name="consultantemail"readonly="readonly" value="${Message2}" required/>
     </div>
  <br/>
 <div class="form-group">
     <label for="country">CONSULTER COUNTRY</label>
-    <input type="text" class=" form-control" id="country" name="country" readonly="readonly"value="${Message5}" ></input>
+    <input type="text" class=" form-control" id="country"  required name="country" readonly="readonly"value="${Message5}"  required></input>
      </div>
   <br/>
    <div class="form-group">
     <label for="jobseekeremail">USER EMAIL</label>
-    <input type="email" class="form-control" id="jobseekeremail" class="jobseekeremail" name="jobseekeremail" required>
+    <input type="email" class="form-control"  required id="jobseekeremail" class="jobseekeremail" name="jobseekeremail" required/>
      </div>
   <br/>
       <div class="form-group">
     <label for="jobseekerfirstname">USER FIRST NAME</label>
-    <input type="text" class="form-control"  id="jobseekerfirstname" class="jobseekerfirstname" name="jobseekerfirstname" required>
+    <input type="text"  required class="form-control"  id="jobseekerfirstname" class="jobseekerfirstname" name="jobseekerfirstname" required/>
     </div>
   <br/>
     <div class="form-group">
     <label for="jobseekerlastname">USER LAST NAME</label>
-    <input type="text" class="form-control" class="jobseekerlastname" id="jobseekerlastname" name="jobseekerlastname" required>
+    <input type="text"   class="form-control" class="jobseekerlastname" id="jobseekerlastname" name="jobseekerlastname" required/>
      </div>
   <br/>
    <div class="form-group">
     <label for="jobfield"> CONSULTER JOBFIELD</label>
-    <input type="text" class="form-control" class="jobfield" id="jobfield" name="jobfield" readonly="readonly" value="${Message8}" required>
+    <input type="text"  class="form-control" class="jobfield" id="jobfield" name="jobfield" readonly="readonly" value="${Message8}" required/>
      </div>
    <br/>
    <div class="form-group">
@@ -99,21 +99,23 @@ h1{
     <br/>
    <div class="form-group">
     <label for="date"> CONSULTER DATE</label>
-    <input type="text" class="form-control" class="date" id="date" name="date" readonly="readonly" value="${Message6}" required>
+    <input type="text"  class="form-control" class="date" id="date" name="date" readonly="readonly" value="${Message6}" required/>
      </div>
    <br/>
    <div class="form-group">
     <label for="time"> CONSULTER TIME</label>
-    <input type="text" class="form-control" class="time"  id="time" name="time" readonly="readonly" value="${Message7}" required>
+    <input type="text"  class="form-control" class="time"  id="time" name="time" readonly="readonly" value="${Message7}" required/>
      </div>
+    
+     
      <br>
       <div class="form-group">
     <label for="state"></label>
-    <input type="hidden" class="form-control" class="state" id="state" name="state" readonly="readonly" value="false" required>
+    <input type="hidden" class="form-control" required class="state" id="state" name="state" readonly="readonly" value="false" required/>
      </div>
      
    <br/>
-  <button type="submit" onClick="submit()" style="width:380px; margin-bottom:100px;" border-radius:10px" name="actionType5" value="BookAppointment" class="btn btn-success">Add</button>
+  <button type="submit"  onClick="submit()" style="width:380px; margin-bottom:100px;" border-radius:10px" name="actionType5" value="BookAppointment" class="btn btn-success">Add</button>
  </div>
    </form>
    

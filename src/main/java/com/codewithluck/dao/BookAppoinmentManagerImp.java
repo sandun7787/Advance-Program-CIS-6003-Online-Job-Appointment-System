@@ -88,10 +88,10 @@ Connection connection=getConnection();
 		PreparedStatement ps = connection.prepareStatement(query);
 		ps.setInt(1, id);
 		
-		
+		BookAppoinment bookAppoinment = new BookAppoinment();
 		ResultSet rs = ps.executeQuery();
 		
-		BookAppoinment bookAppoinment = new BookAppoinment();
+		
 		
 		while(rs.next()) {
 			bookAppoinment.setId(rs.getInt("id"));
@@ -106,6 +106,7 @@ Connection connection=getConnection();
 			bookAppoinment.setAppointmentDate(rs.getString("appointmentDate"));
 			bookAppoinment.setAppointmentTime(rs.getString("appointmentTime"));
 			bookAppoinment.setState(rs.getString("state"));
+			System.out.println(bookAppoinment);
 			
 				
 			
