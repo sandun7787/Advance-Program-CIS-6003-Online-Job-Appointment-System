@@ -168,10 +168,36 @@ public class BookAppoinmentController extends HttpServlet {
 
 	private void fetchSingleBookAppoinment(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-
+		clearMessage();
 		
 		
-	}
+	    int id = Integer.parseInt(request.getParameter("id"));
+	    
+	    
+			
+			try {
+				BookAppoinment bookAppoinment  = getBookAppoinmentService().fetchSingleBookAppoinment(id);
+				if( bookAppoinment.getId() > 0){
+					request.setAttribute("bookAppoinment",bookAppoinment);
+					message = "The  id has been searched !" + id; 
+				}
+				else {
+					message = "No record found!";
+					
+				
+				}
+			} 
+			catch (ClassNotFoundException | SQLException e) {
+				message = e.getMessage();
+			}
+			request.setAttribute("feebackMessage", message);
+			RequestDispatcher rd = request.getRequestDispatcher("BookAppoinment.jsp");
+		
+			rd.forward(request, response);
+		}
+		
+		
+	
     
 	
 		

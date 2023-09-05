@@ -50,7 +50,10 @@
                  <select class=" form-control"  name="country" value="${adminConsulter.country()}" >
                 <option value="Australia">Australia</option>
                 <option value="England">England</option>
-               <option value="America">America</option>    
+               <option value="America">America</option>
+                <option value="India">India</option>
+                <option value="Japan">Japan</option> 
+                 <option value="Korea">Korea</option>       
                 </select>
 				
 				
