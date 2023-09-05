@@ -14,7 +14,7 @@
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 				<li class="nav-item"><a class="nav-link active-toggle" href="index.jsp">HOME</a></li>
-				<li class="nav-item"><a class="nav-link active-toggle" href="AdminConsulterManager.jsp">CONSULTER</a></li>
+				<li class="nav-item"><a class="nav-link active-toggle" href="AdminConsulterManager.jsp">CONSULTER ADD</a></li>
 				<li class="nav-item"><a class="nav-link active-toggle" href="SearchAndUpdate.jsp">SEARCH AND UPDATE</a></li>
 				<li class="nav-item"><a class="nav-link active-toggle" href="getadminconsulter?actionType=all">VIEW ALL DELETE SPECIFIC</a></li>
 
