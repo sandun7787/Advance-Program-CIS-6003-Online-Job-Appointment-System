@@ -46,12 +46,12 @@
 
 
 							<div class="col-md-6">
-								<label for="inputEmail4" class="form-label">Full Name</label> <input
+								<label for="inputEmail4" class="form-label">Job Seeker Full Name</label> <input
 									required type="text" class="form-control" name="fullName">
 							</div>
 							
 							<div class="col-md-6">
-								<label for="inputEmail4" class="form-label">Consultant Name</label> <input
+								<label for="inputEmail4" class="form-label">Consultant Full  Name</label> <input
 									required type="text" class="form-control" name="consultername">
 							</div>
 							
