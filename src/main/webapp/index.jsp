@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Index</title>
+<title>Ozone Consultant Service</title>
 
 <%@include file ="component/allcss.jsp" %>
 
