@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Accepted Job Report</title>
 
 <%@include file ="component/allcss.jsp" %>
 </head>
@@ -25,8 +25,8 @@
               <thead>
               <tr>
                  <th>id</th>
-                 <th>Full Name</th>
-                 <th>Consultant Name</th>
+                 <th>Job Seeker Full Name</th>
+                 <th>Consultant Full Name</th>
                  <th>Appointment Date</th>
                  <th>Email</th>
                  <th>Phone Number</th>
